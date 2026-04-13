@@ -1,0 +1,13 @@
+{
+  "model_name": "BiGRU",
+  "num_classes": 250,
+  "max_len": 384,
+  "rows_per_frame": 543,
+  "pad_value": -100.0,
+  "labels_file": "sign_to_prediction_index_map.json",
+  "load": {
+    "saved_model": "tf.saved_model.load('/kaggle/working/final_model_BiGRU/final_model_BiGRU')",
+    "keras": "tf.keras.models.load_model('/kaggle/working/final_model_BiGRU/final_model_BiGRU.keras')",
+    "tflite": "tf.lite.Interpreter(model_path='/kaggle/working/final_model_BiGRU/final_model_BiGRU.tflite')"
+  }
+}

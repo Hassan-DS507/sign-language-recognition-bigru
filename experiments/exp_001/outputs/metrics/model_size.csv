@@ -1,0 +1,2 @@
+model,total_parameters,trainable_parameters,non_trainable_params,weight_footprint_mb,disk_size_mb
+BiGRU,2435451,2434427,1024,9.29,9.41
