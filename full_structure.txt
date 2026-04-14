@@ -1,0 +1,104 @@
+Folder PATH listing
+Volume serial number is 9E20-81A0
+D:.
+|   full_structure.txt
+|   organize_project.py
+|   README.md
+|   structure.txt
+|   
++---archives
+|       final_model_BiGRU.zip
+|       
++---comparisons
+|       model_comparison_summary.csv
+|       
++---experiments
+|   \---exp_001
+|       |   metadata.json
+|       |   
+|       +---checkpoints
+|       |   +---best
+|       |   |       checkpoint
+|       |   |       ckpt-159.data-00000-of-00001
+|       |   |       ckpt-159.index
+|       |   |       
+|       |   \---last
+|       |           checkpoint
+|       |           ckpt-164.data-00000-of-00001
+|       |           ckpt-164.index
+|       |           ckpt-165.data-00000-of-00001
+|       |           ckpt-165.index
+|       |           
+|       +---data
+|       |       test_split.csv
+|       |       train_split.csv
+|       |       val_split.csv
+|       |       
+|       \---outputs
+|           +---logs
+|           |       BiGRU_20260406_095316.log
+|           |       BiGRU_20260407_044622.log
+|           |       BiGRU_20260407_200249.log
+|           |       BiGRU_20260408_095807.log
+|           |       BiGRU_20260413_104958.log
+|           |       BiGRU_20260413_113512.log
+|           |       BiGRU_20260413_115009.log
+|           |       
+|           +---metrics
+|           |       classification_report.csv
+|           |       confused_pairs.csv
+|           |       dataset_report.txt
+|           |       evaluation_summary.csv
+|           |       hard_examples.csv
+|           |       inference_performance.csv
+|           |       misclassified_samples.csv
+|           |       model_params.txt
+|           |       model_size.csv
+|           |       per_class_accuracy.csv
+|           |       pr_auc_per_class.csv
+|           |       roc_auc_per_class.csv
+|           |       test_results.csv
+|           |       training_history.csv
+|           |       
+|           +---plots
+|           |       BiGRU_architecture.png
+|           |       BiGRU_training_history.png
+|           |       confused_pairs.png
+|           |       confusion_matrix_normalized.png
+|           |       confusion_matrix_raw.png
+|           |       data_split_distribution.png
+|           |       metrics_distribution.png
+|           |       per_class_accuracy.png
+|           |       precision_recall_curves.png
+|           |       roc_curves.png
+|           |       
+|           +---predictions
+|           |       test_predictions.csv
+|           |       
+|           \---reports
+|                   classification_report.txt
+|                   evaluation_summary.txt
+|                   
++---models
+|   |   final_model_BiGRU.keras
+|   |   final_model_BiGRU.tflite
+|   |   model_info.json
+|   |   sign_to_prediction_index_map.json
+|   |   
+|   \---bigru
+|       |   label_map.json
+|       |   model.tflite
+|       |   model_info.json
+|       |   
+|       \---saved_model
+|           |   fingerprint.pb
+|           |   saved_model.pb
+|           |   
+|           \---variables
+|                   variables.data-00000-of-00001
+|                   variables.index
+|                   
+\---notebooks
+        02-bigru-train.ipynb
+        bigru-evaluation.ipynb
+        

@@ -1,2 +1,0 @@
-model,accuracy,top_5_acc,macro_f1,weighted_f1,macro_roc_auc,macro_pr_auc,n_classes,n_test_samples
-BiGRU,0.8159,0.9355,0.8136,0.8157,0.9881,0.841,250,9344
